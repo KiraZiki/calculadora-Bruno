@@ -16,4 +16,12 @@ function divisao($num1, $num2){
     return($num1 / $num2);
 }
 
+function CpF($temp){
+    return(($temp * 1.8) + 32);
+}
+
+function FpC($temp){
+    return(($temp - 32) * (5/9));
+}
+
 ?>
